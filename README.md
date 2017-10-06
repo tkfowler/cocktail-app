@@ -1,25 +1,5 @@
-# ReduxSimpleStarter
+Cocktail recipe app created with React, Redux, react-router and TheCocktailDB API(http://www.thecocktaildb.com/)
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Search for drinks by keyword in the search bar to pull a list of cocktails or generate a random one with the Randomize button. You can also search by type of alcohol used.
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+Click on the cocktail to view the instructions on how to make it with a list of the ingredients and their measurements for the drink.

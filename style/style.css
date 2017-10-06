@@ -1,0 +1,51 @@
+body {
+  background: url('../src/images/barbg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.main {
+  left: 0;
+  margin: auto;
+  top: 50%;
+  width: 100%;
+}
+.intro h1 {
+  text-align: center;
+  font-size: 5em;
+}
+.drink, .drink-list, .results{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.drink-list a:hover{
+  text-decoration: none;
+}
+.drink-list img {
+  height: 75%;
+  width: 75%;
+  border: 1px solid white;
+}
+.drink p {
+  color: white;
+}
+.drink img {
+  height: auto;
+  width: 75%;
+}
+
+h1, h2, h3, h4{
+  color: white !important;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+.search-bar input {
+  width: 50%;
+  height: 40px;
+  opacity: 0.9;
+}
